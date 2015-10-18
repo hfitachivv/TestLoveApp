@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <Button
+        android:id="@+id/botonLoguear"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Loguear"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <EditText
+        android:id="@+id/claveUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/botonLoguear"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="Contraseña" />
+
+    <Button
+        android:id="@+id/botonRegistrar"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/botonLoguear"
+        android:layout_below="@+id/botonLoguear"
+        android:text="Registrar" />
+
+    <EditText
+        android:id="@+id/nombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/claveUsuario"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="Nombre de usuario" />
+
+</RelativeLayout>
